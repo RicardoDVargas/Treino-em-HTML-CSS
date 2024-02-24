@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    box-sizing: border-box;
+}
+.texto_de_compra {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    max-width: 80%;
+}
+.texto_de_compra a {
+    color: #54C8F9;
+    text-decoration: none;
+}
+.texto_de_compra a:hover {
+    color: cyan;
+}
+.texto_de_compra a:active {
+    color: grey;
+}
+.texto_de_compra a:visited {
+    color: lightsteelblue;
+}
+.buscador {
+    display: flex;
+    align-items: center;
+}
+.buscador input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+.buscador button {
+    padding: 5px 10px;
+    background-color: ¨#007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buscador button:hover {
+    background-color: #ccc;
+}
+.loja_skymsen {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    max-width: 80%;
+}
+.loja_skymsen a {
+    color: #54C8F9;
+    text-decoration: none;
+}
+.loja_skymsen a:hover {
+    color: cyan;
+}
+.loja_skymsen a:active {
+    color: grey;
+}
+.loja_skymsen a:visited {
+    color: lightsteelblue;
+}
